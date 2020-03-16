@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body, html {
+    font-family: 'Questrial', sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.small {
+    font-size: 1.1em !important;
+}
+section {
+    padding: 35px 0;
+}
+/*global end*/
+/*banner start*/
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/race-track-3049862_1280.png');
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+.banner-btn {
+    font-size: 18px;
+    border: 1px solid #f36520;
+    background: #ff712c;
+    color: #fff;
+    padding-top: 18px;
+    padding-right: 45px;
+    padding-bottom: 18px;
+    padding-left: 45px;
+}
+.banner-btn:hover {
+    color: #fff;
+}
+/*banner end*/
+/*banner down start*/
+#banner-down {
+    padding: 50px 0;
+}
+#banner-down .question {
+    font-size: 30px;
+}
+
+/*banner down end*/
+/*punter start*/
+.punter-img-text {
+    background: #FF712C;
+    color: #fff;
+    padding: 20px 50px;
+}
+.punter-img-text h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+/*punter end*/
+/*ai jump start*/
+.ai-jump p,
+.ai-footer p{
+    font-size: 16.5px;
+    margin-bottom: 16px;
+}
+/*ai jump end*/
+/*moreAI start*/
+#moreAI {
+    background: #fcfcfc;
+}
+/*moreAI end*/
+/*pricing start*/
+#pricing .card {
+    border: 0;
+    box-shadow: 3px 5px 10px #e0e0e0;
+}
+#pricing .card-header {
+    background: #ff712c;
+    color: #fff;
+}
+.btn-round {
+    width: 100%;
+    border-radius: 30px;
+    background: #f57c40;
+    color: #fff;
+}
+.btn-round:hover {
+    background: #ff712c;
+    color: #fff;
+}
+/*pricing end*/
+/*footer start*/
+#footer {
+    padding: 30px 0;
+    background: #303030;
+    color: #bfbfbf;
+}
+/*footer end*/
+/*contact info start*/
+#contactInfo p {
+    font-size: 16.5px;
+}
+/*contact info end*/
