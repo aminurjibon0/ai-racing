@@ -1,2 +1,2 @@
 # ai-racing
-sales page
+sales page website link : https://aminurjibon0.github.io/ai-racing/
